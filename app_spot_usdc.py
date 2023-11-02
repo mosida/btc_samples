@@ -32,7 +32,7 @@ import auth
 api_key, api_secret = auth.key, auth.secret
 symbol = "USDCUSDT"
 
-# config_logging(logging, logging.DEBUG)
+config_logging(logging, logging.DEBUG)
 logging.basicConfig(level=logging.INFO, format='%(asctime)s %(filename)s[line:%(lineno)d] %(levelname)s %(message)s')
 
 vl = 0.9991  # USDC的最小有效价格
